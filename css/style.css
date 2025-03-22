@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    background-color: aqua;
+    height: 80px;
+    padding: 20px;
+    background: url(/img/logo.jpg) no-repeat;
+    background-size: 200px;
+}
+
+main{
+    background-color: blanchedalmond;
+    width: 70%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1{
+    display: none;
+}
+
+aside{
+    background-color: lightpink;
+    width: 30%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer{
+    background-color: yellowgreen;
+    clear: both;
+    text-align: center;
+    padding: 10px 0;
+}
+/*componente menu principal*/
+.caixa-menuprincipal{
+    float: right;
+}
+
+.caixa-menuprincipal ul{
+    list-style-type: none;
+}
+
+.caixa-menuprincipal ul li{
+    display: inline-block;
+}
+
+.caixa-menuprincipal ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: burlywood;
+    padding: 10px;
+}
+.caixa-menuprincipal ul li a:hover{
+    background-color: cornflowerblue;
+}
+
+/*component caixa post*/
+.caixa-post{
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.caixa-post img{
+    display: block;
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.caixa-post h4{
+    font-size: 70%;
+    color: grey;
+    margin: 5px 0;
+}
+
+.caixa-post p{
+    font-size: 70%;
+    color: darkolivegreen;
+}
+
+.caixa-post h4 span:nth-child(3){
+    background-color: navy;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+/*componente caixa-pesquisa*/
+.caixa-pesquisa{
+    margin-bottom: 30px;
+}
+
+/*componente caixa-pesquisa*/
+.caixa-categorias{
+
+}
+.caixa-categorias ul{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.caixa-categorias ul li a{
+    color: red;
+    text-decoration: none;
+}
